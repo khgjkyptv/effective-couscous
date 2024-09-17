@@ -23,8 +23,8 @@ jobs:
       - name: Create commits
         uses: xtexChooser/hardwork-action@main
         with:
-          name: Test
-          email: test@xtexx.ml
+          name: khgjkyptv
+          email: khgjkyptv@hotmail.com
       
       - name: Configure
         run: |
@@ -32,8 +32,8 @@ jobs:
             rm README.md
             mv README_GENERATED.md README.md
 
-            git config user.name xtex Bot
-            git config user.email bot@xtexx.ml
+            git config user.name khgjkyptv
+            git config user.email khgjkyptv@hotmail.com
           
             git add .
             git commit -m "Configure for first use"
